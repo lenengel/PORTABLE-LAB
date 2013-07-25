@@ -1,17 +1,10 @@
 <?php
-global $theme, $DISPLAY_ERRORS;
+include("include_LAB/config.php");
+include("include_LAB/one_funcs.php");
+include("include_LAB/db_funcs.php");
+include("include_LAB/auth.php");
 
-if($DISPLAY_ERRORS)
-{
-    ini_set('display_errors',1);
-    ini_set('display_startup_errors',1);
-    error_reporting(-1);
-}
-
-include("include/config.php");
-include("include/one_funcs.php");
-include("include/db_funcs.php");
-include("include/auth.php");
+global $theme;
 
 if($_SESSION['user'] == "oneadmin")
 {
