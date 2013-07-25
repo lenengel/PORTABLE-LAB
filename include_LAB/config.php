@@ -1,7 +1,4 @@
 <?php
-// Display Error Messages
-$DISPLAY_ERRORS = FALSE;
-
 // RPC2 url
 $rpc2_url = "http://localhost:2633/RPC2";
 
@@ -10,7 +7,7 @@ $adodb_type = "mysql";
 $adodb_server = "localhost";
 $adodb_user = "root";
 $adodb_pass = "root";
-$adodb_name = "onemc";
+$adodb_name = "PORTABLE_LAB";
 
 // Themes
 $theme = "default";

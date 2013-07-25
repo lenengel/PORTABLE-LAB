@@ -1,16 +1,8 @@
 <?php
-global $DISPLAY_ERRORS;
-
-if($DISPLAY_ERRORS)
-{
-    ini_set('display_errors',1);
-    ini_set('display_startup_errors',1);
-    error_reporting(-1);
-}
 include("xml_funcs.php");
 
 function one_show_vm() {
-    global $vm_state, $lcm_state, $theme, $SOCKETstartport;
+    global $vm_state, $theme, $SOCKETstartport;
 
     $vmpool_info = rpc2_request("one.vmpool.info", array($_SESSION['auth'],-2,-1,-1,-2));
     
@@ -54,8 +46,6 @@ function one_show_vm() {
         }
     }
 }
-
-
 function one_show_vnet($vnetID) {   
    $status = rpc2_request("one.vn.info", array($_SESSION['auth'], $vnetID));
    if (isset($status['failed'])) {
@@ -63,7 +53,6 @@ function one_show_vnet($vnetID) {
    }
    return $status;
 }
-
 function one_create_vnet($Name, $VlanID, $vnettemplate) {
 
    $template = "NAME = \"".$Name."\"\n";

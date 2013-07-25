@@ -132,14 +132,11 @@ function xml2array($contents, $get_attributes=1, $priority = 'tag') {
     
     return($xml_array);
 }  
-
 function rpc2_request($rpc2_method, $rpc2_request, $return_ARRAY = TRUE) {
     global $rpc2_url;
 
     $request = xmlrpc_encode_request($rpc2_method, $rpc2_request);
-
     $session = curl_init($rpc2_url);
-
     curl_setopt ($session, CURLOPT_POST, true);
     curl_setopt ($session, CURLOPT_POSTFIELDS, $request);
     curl_setopt($session, CURLOPT_HTTPHEADER, Array("Content-Type: text/xml"));
