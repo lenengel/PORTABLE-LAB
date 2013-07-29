@@ -1,13 +1,17 @@
 ## PORTABLE LAB
 
+<img src="logo.jpg">
+
 ### Description
 
-By the help of PORTABLE LAB you can deploy an easy to use trainings enviroment.
+By the help of the PORTABLE LAB you can deploy an easy to use environment for security and forensic trainings.
 
 ### Features
 
-* Build easy to use trainings environments for security and forensic topics
-* blabla
+* Portable
+* Webinterface
+* NoVNC Support
+* resistant against cheating
 * Open Source Software
 
 ### Screenshots
