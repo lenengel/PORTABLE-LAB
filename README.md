@@ -1,6 +1,6 @@
 ## PORTABLE LAB
 
-<img src="logo.jpg">
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/Logo.jpg">
 
 ### Description
 
