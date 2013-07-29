@@ -15,9 +15,15 @@ By the help of the PORTABLE LAB you can deploy an easy to use environment for se
 * Open Source Software
 
 ### Screenshots
+View of the trainer:
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_Start.JPG">&nbsp;
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_Started.JPG">&nbsp;
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_RUNNINGVMs.JPG">&nbsp;
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_Stop.JPG">&nbsp;
 
-<img src="url.png" width=400>&nbsp;
-<img src="url.jpg" width=400>
+View of the user:
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_User_Info.JPG">&nbsp;
+<img src="https://raw.github.com/lenengel/PORTABLE-LAB/master/images/PORTABLE_LAB_User_VM.JPG">&nbsp;
 
 ### Author/Contact
 
